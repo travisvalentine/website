@@ -1,3 +1,26 @@
 body {
-  background-color: #000;
+  font-family: "HelveticaNeue";
+  padding: 20px 60px;
+}
+h1 {
+  color: #666;
+  margin-bottom: 40px;
+}
+a {
+  text-decoration: none;
+  color: ;
+}
+a:hover {
+  text-decoration: underline;
+  color: ;
+}
+a:visited {
+  color: ;
+}
+ol,ul {
+  list-style: none;
+}
+p {
+  color: #333;
+  font-size: 120%;
 }
