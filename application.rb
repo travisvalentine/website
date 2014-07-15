@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'bundler/setup'
+Bundler.require
 require 'sinatra'
 require 'sinatra/link_header'
 
