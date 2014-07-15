@@ -47,7 +47,7 @@ p {
   margin: 15px 0;
 }
 aside#projects {
-  margin: 40px 0;
+  margin: 10px 0 40px;
 }
 .site-snapshot .image {
   height: 520px;
