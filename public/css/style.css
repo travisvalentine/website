@@ -1,26 +1,110 @@
 body {
-  font-family: "HelveticaNeue";
-  padding: 20px 60px;
+  display: block;
+  text-align: left;
+  font-family: "Helvetica Neue";
+  margin: 0% -1.5%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+}
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 65%;
+}
+.container:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
 }
 h1 {
   color: #666;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 a {
   text-decoration: none;
-  color: ;
+  color: #6633FF;
 }
 a:hover {
   text-decoration: underline;
-  color: ;
+  color: #6633FF;
 }
 a:visited {
-  color: ;
+  color: #6633FF;
 }
 ol,ul {
   list-style: none;
 }
 p {
   color: #333;
-  font-size: 120%;
+  font-size: 1.05em;
+  margin: 15px 0;
+}
+aside#projects {
+  margin: 40px 0;
+}
+.site-snapshot .image {
+  height: 520px;
+  margin: 0px auto 80px;
+  opacity: 0.8;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  width: 1000px;
+}
+.site-snapshot .image:hover {
+  opacity: 1;
+}
+.image.yourturn {
+  background: url("/images/yourturn1000.png") no-repeat;
+}
+.image.dialtest {
+  background: url("/images/dialtest1000.png") no-repeat;
+}
+.image.oursolution {
+  background: url("/images/oursolution1000.png") no-repeat;
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 90%;
+  }
+  .site-snapshot .image {
+    height: 416px;
+    margin: 0px auto 40px;
+    width: 800px;
+  }
+  .image.yourturn {
+    background: url("/images/yourturn800.png") no-repeat;
+  }
+  .image.dialtest {
+    background: url("/images/dialtest800.png") no-repeat;
+  }
+  .image.oursolution {
+    background: url("/images/oursolution800.png") no-repeat;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 90%;
+  }
+  .site-snapshot .image {
+    height: 208px;
+    margin: 0px auto 40px;
+    width: 400px;
+  }
+  .image.yourturn {
+    background: url("/images/yourturn400.png") no-repeat;
+  }
+  .image.dialtest {
+    background: url("/images/dialtest400.png") no-repeat;
+  }
+  .image.oursolution {
+    background: url("/images/oursolution400.png") no-repeat;
+  }
 }
