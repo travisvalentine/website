@@ -11,8 +11,11 @@ body {
 }
 .container {
   margin: 0 auto;
-  max-width: 1000px;
-  width: 65%;
+  width: 100%;
+}
+header, aside {
+  margin: 0 auto;
+  width: 80%;
 }
 .container:after {
   content: ".";
@@ -47,7 +50,7 @@ p {
   margin: 15px 0;
 }
 aside#projects {
-  margin: 10px 0 30px;
+  margin-top: 10px;
 }
 .site-snapshot .image {
   height: 520px;
@@ -72,13 +75,6 @@ aside#projects {
 }
 
 @media (max-width: 979px) {
-  header, aside {
-    margin: 0 auto;
-    width: 80%;
-  }
-  .container {
-    width: 100%;
-  }
   .site-snapshot .image {
     height: 416px;
     margin: 0px auto 40px;
@@ -96,16 +92,6 @@ aside#projects {
 }
 
 @media (max-width: 600px) {
-  header, aside {
-    margin: 0 auto;
-    width: 80%;
-  }
-  aside#projects{
-    margin: 0 auto;
-  }
-  .container {
-    width: 100%;
-  }
   .site-snapshot .image {
     height: 208px;
     margin: 0px auto 40px;
