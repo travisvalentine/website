@@ -72,8 +72,12 @@ aside#projects {
 }
 
 @media (max-width: 800px) {
+  header, aside {
+    margin: 0 auto;
+    width: 80%;
+  }
   .container {
-    width: 90%;
+    width: 100%;
   }
   .site-snapshot .image {
     height: 416px;
@@ -92,8 +96,12 @@ aside#projects {
 }
 
 @media (max-width: 400px) {
+  header, aside {
+    margin: 0 auto;
+    width: 80%;
+  }
   .container {
-    width: 90%;
+    width: 100%;
   }
   .site-snapshot .image {
     height: 208px;
