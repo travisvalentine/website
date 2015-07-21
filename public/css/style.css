@@ -118,3 +118,25 @@ aside#projects {
     background: url("/images/oursolution400.png") no-repeat;
   }
 }
+a.appstore:hover {
+  text-decoration: none;
+}
+img.app {
+  border: 1px solid #dddbdc;
+  border-radius:20px;
+  margin-right: 10px;
+  max-height: 110px;
+  max-width:110px;
+}
+ol#app_list {
+  padding: 0;
+}
+ol#app_list a {
+  margin-right: 8px;
+}
+span.divider {
+  color: #ccc;
+}
+aside.woodworking img {
+  padding: 0 10px 10px 0;
+}
