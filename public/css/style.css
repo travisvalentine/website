@@ -131,11 +131,9 @@ img.app {
 ol#app_list {
   padding: 0;
 }
-ol#app_list a {
-  margin-right: 8px;
-}
 span.divider {
   color: #ccc;
+  margin: 0 4px 0 10px;
 }
 aside.woodworking img {
   padding: 0 10px 10px 0;
