@@ -35,3 +35,4 @@ bower.json
 .powenv
 
 views/.DS_Store
+.DS_Store
