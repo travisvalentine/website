@@ -8,9 +8,7 @@ configure do
   set :views, "#{File.dirname(__FILE__)}/views"
 
   # so the semantic theme preview URLs can be included as iFrames
-  config.action_dispatch.default_headers = {
-    'X-Frame-Options' => 'ALLOWALL'
-  }
+  set :protection, except: [:frame_options]
 end
 
 error do
