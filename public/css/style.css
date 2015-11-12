@@ -118,13 +118,26 @@ aside#projects {
     background: url("/images/oursolution400.png") no-repeat;
   }
 }
+.tech.projects h3 {
+  padding-top: 15px;
+}
+.app {
+  display:inline-block;
+  margin-right: 10px;
+}
+.app .platforms {
+  text-align: center;
+}
+a.appstore {
+  display: inline-block;
+}
 a.appstore:hover {
   text-decoration: none;
 }
 img.app {
   border: 1px solid #dddbdc;
   border-radius:20px;
-  margin-right: 10px;
+  margin: 0 auto;
   max-height: 110px;
   max-width:110px;
 }
