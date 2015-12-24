@@ -1,0 +1,154 @@
+/* MAIN STYLES */
+
+body {
+  background-color: #F5F5F5 !important;
+}
+
+.ui.main.grid {
+  left: 18.75%;
+  padding-top: 0rem !important;
+  position: relative;
+  width: 81.25%;
+}
+
+.ui.main.grid .ui.secondary.pointing.fluid.menu h2 {
+  margin: calc(2rem - .14285em) 0 1rem;
+}
+
+.ui.fixed.inverted.main.menu {
+  display: none;
+}
+
+.ui.left.fixed.vertical.inverted.menu {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.ui.left.fixed.vertical.inverted.menu a.item:first-child {
+  padding-bottom: 30px;
+  padding-top: 60px;
+}
+
+/* LOGIN STYLES */
+
+[data-page="login"] .ui.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  margin: 0 auto;
+  width: 465px;
+}
+
+.dashboard.brand.icon {
+  width: 100%;
+  margin-bottom: 36px;
+}
+
+[data-page="login"] .ui.container .ui.segment {
+  padding: 35px;
+}
+
+p.signup {
+  padding-top: 25px;
+}
+
+p.dashboard {
+  font-size: 12px;
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+
+p.signup, p.dashboard {
+  color: #999999;
+  text-align: center;
+}
+
+/* PRODUCTS STYLES */
+.ui.striped.table {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* CUSTOMER STYLES */
+
+.customer.statistics {
+  width: 100%;
+}
+
+.feedback.segments {
+  width: 100%;
+}
+
+/* DASHBOARD STYLES */
+
+.ui.dashboard.segment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 171px;
+}
+
+.ui.dashboard.statistic .value {
+  color: #FFFFFF;
+}
+
+.ui.dashboard.statistic .label {
+  color: #F5F5F5;
+}
+
+.top-table.column {
+  width: 33.33333333% !important;
+}
+
+.top-table.column .ui.segment:last-child, .doughnut-chart.column .ui.segment:last-child {
+  height: 219px;
+}
+
+.doughnut-chart.column {
+  width: 66.66666666% !important;
+}
+
+ul#dashboard_legend {
+  display: inline-block;
+  vertical-align: top;
+}
+
+ul.doughnut-legend {
+  list-style-type: none;
+}
+
+.doughnut-legend li span{
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+  height: 12px;
+  width: 12px;
+}
+
+/* EMPLOYEES STYLES */
+
+img#swanson {
+  height: 329px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .ui.fixed.inverted.main.menu {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .ui.left.fixed.vertical.inverted.menu {
+    display: none;
+  }
+
+  .ui.main.grid {
+    left: 0%;
+    padding-top: 2.75rem !important;
+    position: relative;
+    width: 100%;
+  }
+}
+
+}

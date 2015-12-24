@@ -37,3 +37,13 @@ end
 get '/semantic-themes/minimal-slide/contact.html' do
   send_file 'views/semantic-themes/minimal-slide/contact.html'
 end
+
+['dashboard', 'sales', 'login', 'employees', 'customers', 'products'].each do |page|
+  get "/semantic-themes/admin/#{page}.html" do
+    send_file "views/semantic-themes/admin/#{page}.html"
+  end
+end
+
+get '/semantic-themes/admin/products/gallery.html' do
+  send_file 'views/semantic-themes/admin/gallery.html'
+end
