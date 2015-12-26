@@ -37,7 +37,6 @@ $(document).ready(function() {
   }
 
   function resizeGraphs() {
-    console.log("HI!");
     if (getPage() === "sales") {
       var salesChart = $("#sales_chart");
       var table = $(".ui.table");
@@ -79,6 +78,8 @@ $(document).ready(function() {
   }
 
   function setupSalesLine() {
+    resizeGraphs();
+
     var ctx = document.getElementById("sales_chart").getContext("2d");
     var data = {
       labels: ["January", "February", "March", "April", "May", "June", "July"],
