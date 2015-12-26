@@ -5,6 +5,11 @@ $(document).ready(function() {
   var dateString = currentDate.toDateString();
   dateTime.text(dateString);
 
+  // For responsive sidebar menu
+  $("a.sidebar-toggle").click(function() {
+    $('.ui.sidebar').sidebar('toggle');
+  });
+
   switch(getPage()) {
     case "dashboard":
       setupDoughnut();
@@ -104,7 +109,7 @@ $(document).ready(function() {
   }
 
   function setupNewEmployeeModal() {
-    $("button.add-staff").on("click", function(){
+    $("button.add-staff, .ui.inverted.icon.button, .ui.primary.icon.button").on("click", function(){
       $(".ui.modal").modal("show");
     });
     $(".ui.checkbox").checkbox();
