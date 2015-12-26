@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="../../css/semantic-themes/semantic.min.css">
     <link rel="stylesheet" type="text/css" href="../../css/semantic-themes/sidebar.min.css">
     <link rel="stylesheet" type="text/css" href="../../css/semantic-themes/icon.min.css">
-    <link rel="stylesheet" type="text/css" href="../../css/semantic-themes/minimal-slide.css">
+    <!-- Remove if you don't want to use Chart JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
     <script src="../../js/semantic-themes/admin/admin.js"></script>
     <script src="../../js/semantic-themes/minimal-slide.js"></script>
@@ -17,7 +17,7 @@
 
   <body data-page="dashboard">
     <div class="ui grid container">
-      <!-- Sidebar menu - responsive only -->
+      <!-- Responsive sidebar menu -->
       <div class="ui sidebar inverted vertical menu">
         <a class="item" href="./login.html">
           <h4 class="ui grey header">John Doe</h4>
@@ -42,7 +42,7 @@
         </a>
       </div>
 
-      <!-- Non-responsive menu -->
+      <!-- Non-responsive main left menu -->
       <div class="ui left fixed vertical inverted menu">
         <a class="item" href="./login.html">
           <h4 class="ui grey header">John Doe</h4>
@@ -66,6 +66,7 @@
           Employees
         </a>
       </div>
+
       <div class="ui main grid">
         <!-- Responsive top menu -->
         <div class="ui fixed inverted main menu">
@@ -76,6 +77,7 @@
           </div>
         </div>
 
+        <!-- I use this to just show a DateTime, remove/replace as you wish -->
         <h1 class="ui header datetime">Current time</h1>
 
         <div class="ui icon message">
