@@ -102,6 +102,8 @@ p.signup, p.dashboard {
   width: 100%;
 }
 
+/* EMPLOYEES STYLES */
+
 /* DASHBOARD STYLES */
 
 .ui.dashboard.segment {
@@ -150,6 +152,11 @@ ul.doughnut-legend {
 
 /* SMARTPHONE */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
+  .ui.special.three.cards .card .content a.header,
+  .ui.special.three.cards .card .content div.header {
+    font-size: 1em;
+  }
+
   .ui.four.customer.statistics .statistic .value {
     font-size: 1.5em;
   }
@@ -184,7 +191,8 @@ ul.doughnut-legend {
 
   .ui.main.grid {
     left: 0%;
-    padding-top: 2.75rem !important;
+    margin: 0 auto;
+    padding: 2.75rem 0 0;
     position: relative;
     width: 100%;
   }
