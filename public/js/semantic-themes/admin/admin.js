@@ -110,7 +110,7 @@ $(document).ready(function() {
   }
 
   function setupNewEmployeeModal() {
-    $("button.add-staff, .ui.inverted.icon.button, .ui.primary.icon.button").on("click", function(){
+    $("button.add-staff, .ui.inverted.icon.button, .ui.primary.icon.button, .ui.mobile.cards .ui.basic.green.button").on("click", function(){
       $(".ui.modal").modal("show");
     });
     $(".ui.checkbox").checkbox();

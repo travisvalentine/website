@@ -104,6 +104,10 @@ p.signup, p.dashboard {
 
 /* EMPLOYEES STYLES */
 
+.ui.mobile.cards {
+  display: none;
+}
+
 /* DASHBOARD STYLES */
 
 .ui.dashboard.segment {
@@ -152,6 +156,14 @@ ul.doughnut-legend {
 
 /* SMARTPHONE */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
+  .ui.mobile.cards {
+    display: flex;
+  }
+
+  .ui.special.three.cards {
+    display: none;
+  }
+
   .ui.main.grid .row {
     padding-top: 0;
     padding-bottom: 0;
